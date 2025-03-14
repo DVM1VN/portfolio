@@ -1,0 +1,44 @@
+body {
+    margin: 0;    
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+p{
+    font-family: "Raleway", sans-serif;
+}
+
+.cover {
+    height: 800px;
+    background-image: url(portada_50.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+}
+
+.cover h1 {
+    position: absolute;
+    top: 40%;
+    left: 11%;
+    color: white;
+    font-size: 3rem;
+    margin: 0;
+}
+
+.cover p {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    width: 45%;
+    color: white;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    padding: 15px;
+    border-radius: 5px;
+}
